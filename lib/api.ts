@@ -2,7 +2,7 @@ import axios from "axios";
 import { User, CreateUserRequest, ApiResponse } from "./types";
 import { isAxiosError } from "axios";
 
-const API_URL = process.env.API_BASE_URL;
+const API_URL = "https://2dqfj1u70e.execute-api.eu-north-1.amazonaws.com/";
 
 const api = axios.create({
   baseURL: API_URL,
